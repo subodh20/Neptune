@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Full Name"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:background="@drawable/bg_edittext"
+            android:id="@+id/fullNameField" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:background="@drawable/bg_edittext"
+            android:id="@+id/emailField" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Phone Number"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:background="@drawable/bg_edittext"
+            android:id="@+id/phNumberField" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Password"
+            android:paddingRight="10dp"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:background="@drawable/bg_edittext"
+            android:id="@+id/pwField" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:background="@drawable/bg_edittext"
+            android:id="@+id/confirmPwField" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/signUpBtn" />
+
+    </LinearLayout>
+</RelativeLayout>
