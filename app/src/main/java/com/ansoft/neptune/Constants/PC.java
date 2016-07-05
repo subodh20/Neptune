@@ -15,6 +15,7 @@ public class PC {
     public static final String KEY_SONG_RATING="SongRating";
     public static final String KEY_SONG_THUMBNAIL="songThumbnail";
     public static final String KEY_SONG_OBJECT="Song";
+    public static final String KEY_USER_PROFILEPHOTO="ProfilePhoto";
 
 
 }

@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.parse.ParseUser;
+import com.ansoft.neptune.Data.Ourdata;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -23,32 +23,29 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-      firstNameField=(EditText)findViewById(R.id.firstNameField);
-        lastNameField=(EditText)findViewById(R.id.lastNameField);
-        signUpBtn1=(Button)findViewById(R.id.signUpBtn1);
-       signUpBtn1.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               //getting enetered value from firstName and lastName field
-               firstName=firstNameField.getText().toString();
-               lastName=lastNameField.getText().toString();
-               firstName=firstName.trim();
-               lastName=lastName.trim();
-               if(firstName.equals("")||lastName.equals(""))
-               {
-                   Toast.makeText(SignUpActivity.this,"fill all things properly",Toast.LENGTH_LONG).show();
-               }
-               else
-               {
-                   ParseUser user=new ParseUser();
-                 user.setUsername(firstName+lastName);
-                   Intent intent=new Intent(SignUpActivity.this,SignUp2.class);
-                   intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                   intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                   startActivity(intent);
-               }
-           }
-       });
+        firstNameField = (EditText) findViewById(R.id.firstNameField);
+        lastNameField = (EditText) findViewById(R.id.lastNameField);
+        signUpBtn1 = (Button) findViewById(R.id.signUpBtn1);
+        signUpBtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //getting enetered value from firstName and lastName field
+                firstName = firstNameField.getText().toString();
+                lastName = lastNameField.getText().toString();
+                firstName = firstName.trim();
+                lastName = lastName.trim();
+                if (firstName.equals("") || lastName.equals("")) {
+                    Toast.makeText(SignUpActivity.this, "fill all things properly", Toast.LENGTH_LONG).show();
+                } else {
+                    Ourdata.setcFn(firstName);
+                    Ourdata.setcLn(lastName);
+                    Intent intent = new Intent(SignUpActivity.this, SignUp2.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                }
+            }
+        });
 
         /*
         emailField = (EditText) findViewById(R.id.emailField);

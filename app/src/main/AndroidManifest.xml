@@ -37,7 +37,6 @@
         <activity android:name=".SignUp2" />
         <activity android:name=".SignUp3" />
         <activity android:name=".SignUpfinal" />
-        <activity android:name=".SignUpTest"></activity>
     </application>
 
 </manifest>
