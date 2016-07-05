@@ -9,6 +9,7 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
+        android:id="@+id/tab"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
@@ -23,9 +24,6 @@
 
     <include layout="@layout/content_home" />
 
-   <ListView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:id="@+id/listView"/>
+
 
 </android.support.design.widget.CoordinatorLayout>

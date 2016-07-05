@@ -7,6 +7,24 @@ public class Song {
 
     String Name;
     String songLink;
+    String artistName;
+    String thumbnailLink;
+
+    public String getThumbnailLink() {
+        return thumbnailLink;
+    }
+
+    public String getArtistName() {
+        return artistName;
+    }
+
+    public void setArtistName(String artistName) {
+        this.artistName = artistName;
+    }
+
+    public void setThumbnailLink(String thumbnailLink) {
+        this.thumbnailLink = thumbnailLink;
+    }
 
     public String getName() {
         return Name;

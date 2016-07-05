@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@drawable/login_bg"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -41,8 +42,11 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:text="Login"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white_gray"
+            android:background="@drawable/button_black"
             android:id="@+id/loginBtn" />
 
         <TextView
@@ -50,8 +54,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="20dp"
-            android:textColor="#000000"
-            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="#0000a0"
             android:text="Create Account"
             android:layout_gravity="center"
             android:id="@+id/tvCreateAccount" />

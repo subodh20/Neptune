@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@drawable/bg_signup1"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -13,78 +14,49 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="55dp"
             android:layout_marginBottom="5dp"
-            android:hint="Full Name"
+            android:hint="First Name"
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
             android:lines="1"
             android:maxLines="1"
             android:background="@drawable/bg_edittext"
-            android:id="@+id/fullNameField" />
+            android:id="@+id/firstNameField" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:hint="Email"
+            android:hint="Last Name"
             android:inputType="textEmailAddress"
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
             android:lines="1"
             android:maxLines="1"
             android:background="@drawable/bg_edittext"
-            android:id="@+id/emailField" />
+            android:id="@+id/lastNameField" />
 
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:hint="Phone Number"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
-            android:lines="1"
-            android:maxLines="1"
-            android:background="@drawable/bg_edittext"
-            android:id="@+id/phNumberField" />
-
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:hint="Password"
-            android:paddingRight="10dp"
-            android:inputType="textPassword"
-            android:paddingLeft="10dp"
-            android:lines="1"
-            android:maxLines="1"
-            android:background="@drawable/bg_edittext"
-            android:id="@+id/pwField" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:hint="Confirm Password"
-            android:inputType="textPassword"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
-            android:lines="1"
-            android:maxLines="1"
-            android:background="@drawable/bg_edittext"
-            android:id="@+id/confirmPwField" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sign up"
-            android:id="@+id/signUpBtn" />
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:text="Next"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white_gray"
+            android:background="@drawable/button_black"
+            android:id="@+id/signUpBtn1"
+            android:layout_gravity="right" />
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/indicator1"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

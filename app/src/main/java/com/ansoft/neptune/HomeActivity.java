@@ -10,9 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.ansoft.neptune.Adapter.GridSongListAdapter;
 import com.ansoft.neptune.Constants.PC;
 import com.ansoft.neptune.Data.Song;
 import com.parse.FindCallback;
@@ -30,7 +30,6 @@ public class HomeActivity extends AppCompatActivity
 
     ListView listView;
     ArrayList<Song> songList;
-    String[] songNames;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -108,13 +107,19 @@ public class HomeActivity extends AppCompatActivity
                     for (ParseObject song:list){
                         Song song1=new Song();
                         song1.setName(song.getString(PC.KEY_SONG_NAME));
-                        song1.setName(song.getString(PC.KEY_SONG_LINK));
+                        song1.setSongLink(song.getString(PC.KEY_SONG_LINK));
+                        song1.setThumbnailLink(song.getString(PC.KEY_SONG_THUMBNAIL));
+                        song1.setArtistName(song.getString(PC.KEY_SONG_ARTIST_NAME));
                         songList.add(song1);
+
+
+                        Log.e("Name", song1.getName());
+                        Log.e("Artist", song1.getArtistName());
+                        Log.e("Link", song1.getSongLink());
                     }
-                    songNames=new String[songList.size()];
-                    //ArrayAdapter adapter=new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, songNames);
-                    ArrayAdapter<String> ad=new ArrayAdapter<String>(HomeActivity.this, android.R.layout.simple_list_item_1, songNames);
-                    listView.setAdapter(ad);
+                    GridSongListAdapter adapter=new GridSongListAdapter(songList, HomeActivity.this);
+                    listView.setAdapter(adapter);
+
                 }
             }
         });
