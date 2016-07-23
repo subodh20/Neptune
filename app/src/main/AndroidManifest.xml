@@ -4,6 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".NeptuneApplication"
@@ -34,9 +38,12 @@
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SignUp2" />
-        <activity android:name=".SignUp3" />
-        <activity android:name=".SignUpfinal" />
+        <activity android:name=".SignUp2"
+            android:parentActivityName=".SignUpActivity"/>
+        <activity android:name=".SignUp3"
+            android:parentActivityName=".SignUp2"/>
+        <activity android:name=".SignUpfinal"
+            android:parentActivityName=".SignUp3"/>
     </application>
 
 </manifest>
