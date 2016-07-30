@@ -10,8 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
-import android.widget.ListView;
-
+import android.widget.GridView;
 import com.ansoft.neptune.Adapter.GridSongListAdapter;
 import com.ansoft.neptune.Constants.PC;
 import com.ansoft.neptune.Data.Song;
@@ -28,7 +27,7 @@ import java.util.List;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    ListView listView;
+    GridView gridView;
     ArrayList<Song> songList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +36,7 @@ public class HomeActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         songList=new ArrayList<>();
-        listView =(ListView)findViewById(R.id.listView);
+        gridView =(GridView)findViewById(R.id.listView);
         retrieveSongs();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -106,6 +105,7 @@ public class HomeActivity extends AppCompatActivity
                 if (e==null){
                     for (ParseObject song:list){
                         Song song1=new Song();
+                        song1.setPreviewLink(song.getParseFile(PC.KEY_SONG_PREVIEW_AUDIO).getUrl().toString());
                         song1.setName(song.getString(PC.KEY_SONG_NAME));
                         song1.setSongLink(song.getString(PC.KEY_SONG_LINK));
                         song1.setThumbnailLink(song.getString(PC.KEY_SONG_THUMBNAIL));
@@ -118,7 +118,7 @@ public class HomeActivity extends AppCompatActivity
                         Log.e("Link", song1.getSongLink());
                     }
                     GridSongListAdapter adapter=new GridSongListAdapter(songList, HomeActivity.this);
-                    listView.setAdapter(adapter);
+                    gridView.setAdapter(adapter);
 
                 }
             }

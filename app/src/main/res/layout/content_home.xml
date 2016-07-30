@@ -12,10 +12,11 @@
     tools:context="com.ansoft.neptune.HomeActivity"
     tools:showIn="@layout/app_bar_home">
 
-    <ListView
+    <GridView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:numColumns="2"
         />
 
 </RelativeLayout>

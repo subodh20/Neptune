@@ -9,6 +9,15 @@ public class Song {
     String songLink;
     String artistName;
     String thumbnailLink;
+    String previewLink;
+
+    public String getPreviewLink() {
+        return previewLink;
+    }
+
+    public void setPreviewLink(String previewLink) {
+        this.previewLink = previewLink;
+    }
 
     public String getThumbnailLink() {
         return thumbnailLink;

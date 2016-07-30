@@ -44,6 +44,8 @@
             android:parentActivityName=".SignUp2"/>
         <activity android:name=".SignUpfinal"
             android:parentActivityName=".SignUp3"/>
+
+        <service android:name=".PlayerService"/>
     </application>
 
 </manifest>

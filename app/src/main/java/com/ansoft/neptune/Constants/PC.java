@@ -8,7 +8,7 @@ public class PC {
     public static final String KEY_FULLNAME="fullname";
     public static final String KEY_PHONE_NUMBER="phoneNumber";
     public static final String KEY_SONG_NAME="songName";
-    public static final String KEY_SONG_PREVIEW_AUDIO="PreviewAudio";
+    public static final String KEY_SONG_PREVIEW_AUDIO="previewAudio";
     public static final String KEY_SONG_ARTIST_NAME="songArtistName";
     public static final String KEY_SONG_LINK="songLink";
     public static final String KEY_SONG_PRICE="SongPrice";
