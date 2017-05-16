@@ -1,130 +1,138 @@
 {
+
+"Categories": 
+        [
+            {
+                "name": "Nougat"
+            }
+        ],
+
    "wallpapers": [
       {
          "author": "Abinash Neupane",
          "url": "https://s23.postimg.org/f80249bi3/Bicky_Red_and_Shade_Zk_Zh_QGY.jpg",
          "name": "Red",
-         "thumbnail": "https://s23.postimg.org/f80249bi3/Bicky_Red_and_Shade_Zk_Zh_QGY.jpg"
+         "category": "Nougat", "thumbnail": "https://s23.postimg.org/f80249bi3/Bicky_Red_and_Shade_Zk_Zh_QGY.jpg"
       },
       {
          "author": "Abinash Neupane",
          "url": "http://i.imgur.com/VHOnG66.jpg",
          "name": "Sunset",
-         "thumbnail": "http://i.imgur.com/HO7s8g5.jpg"
+         "category": "Nougat", "thumbnail": "http://i.imgur.com/HO7s8g5.jpg"
       },
       {
          "author": "Abinash Neupane",
          "url": "http://i.imgur.com/XAkWx86.jpg",
          "name": "Space",
-         "thumbnail": "http://i.imgur.com/IoCSrsy.jpg"
+         "category": "Nougat", "thumbnail": "http://i.imgur.com/IoCSrsy.jpg"
       },
       {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/dbi5yxH.jpg",
 "name": "Awesome Sky.png",
-"thumbnail": "http://i.imgur.com/9npxVI1.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/9npxVI1.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/eMiPJu3.jpg",
 "name": "Beach.png",
-"thumbnail": "http://i.imgur.com/Mr3NpyP.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/Mr3NpyP.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/HrZbpdM.jpg",
 "name": "Chemistry Wallpaper.png",
-"thumbnail": "http://i.imgur.com/7XO7Fuz.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/7XO7Fuz.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/t1Pic5c.jpg",
 "name": "City Line.png",
-"thumbnail": "http://i.imgur.com/k8HItpO.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/k8HItpO.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/VSUXikV.jpg",
 "name": "Cityscape.png",
-"thumbnail": "http://i.imgur.com/uvR9LsH.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/uvR9LsH.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/a2nnp7X.png",
 "name": "Gradient Light.png",
-"thumbnail": "http://i.imgur.com/SHOBAl9.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/SHOBAl9.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/6Wtxans.jpg",
 "name": "Grassland.png",
-"thumbnail": "http://i.imgur.com/ZxC1FAq.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/ZxC1FAq.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/d7oPMsO.jpg",
 "name": "Greenland.png",
-"thumbnail": "http://i.imgur.com/QWsIbvF.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/QWsIbvF.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/WhoyIrp.jpg",
 "name": "Lakeside.png",
-"thumbnail": "http://i.imgur.com/BYrNWVs.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/BYrNWVs.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/JGhFYJb.jpg",
 "name": "Naruto.png",
-"thumbnail": "http://i.imgur.com/Z5v1CQZ.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/Z5v1CQZ.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/zvjmTNV.jpg",
 "name": "Northern Light.png",
-"thumbnail": "http://i.imgur.com/ZoOqnDa.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/ZoOqnDa.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/sulNg11.png",
 "name": "Plane Red Sky.png",
-"thumbnail": "http://i.imgur.com/Iz8wsJK.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/Iz8wsJK.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/7z38EOw.png",
 "name": "Red Black.png",
-"thumbnail": "http://i.imgur.com/LnpPNSP.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/LnpPNSP.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/LnjbDa4.jpg",
 "name": "Red Lake.png",
-"thumbnail": "http://i.imgur.com/nr5mhko.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/nr5mhko.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/SwQyJYb.jpg",
 "name": "Sky.png",
-"thumbnail": "http://i.imgur.com/RH39GXC.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/RH39GXC.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/lxXbPbN.jpg",
 "name": "Star Wars.png",
-"thumbnail": "http://i.imgur.com/cUQzUap.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/cUQzUap.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/JWLzuZE.jpg",
 "name": "Starry Woods.png",
-"thumbnail": "http://i.imgur.com/2ythEDW.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/2ythEDW.png"
 },
 {
 "author": "Abinash Neupane",
 "url": "http://i.imgur.com/DEEcVzF.jpg",
 "name": "Sunset.png",
-"thumbnail": "http://i.imgur.com/otiHGa8.png"
+"category": "Nougat", "thumbnail": "http://i.imgur.com/otiHGa8.png"
 }
    ]
 }
