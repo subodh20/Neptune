@@ -1,138 +1,223 @@
 {
-
-"Categories": 
+    "Categories": 
         [
             {
+                "name": "KitKat"
+            },
+            {
+                "name": "Lollipop"
+            },
+            {
+                "name": "Marshmallow"
+            },
+            {
                 "name": "Nougat"
+            },
+            {
+                "name": "NoImagesInside"
+            },
+            {
+                "name": "AnotherCategory"
             }
         ],
-
-   "Wallpapers":
-        [{
-         "author": "Abinash Neupane",
-         "url": "https://s23.postimg.org/f80249bi3/Bicky_Red_and_Shade_Zk_Zh_QGY.jpg",
-         "name": "Red",
-         "category": "Nougat", "thumbUrl": "https://s23.postimg.org/f80249bi3/Bicky_Red_and_Shade_Zk_Zh_QGY.jpg"
-      },
-      {
-         "author": "Abinash Neupane",
-         "url": "http://i.imgur.com/VHOnG66.jpg",
-         "name": "Sunset",
-         "category": "Nougat", "thumbUrl": "http://i.imgur.com/HO7s8g5.jpg"
-      },
-      {
-         "author": "Abinash Neupane",
-         "url": "http://i.imgur.com/XAkWx86.jpg",
-         "name": "Space",
-         "category": "Nougat", "thumbUrl": "http://i.imgur.com/IoCSrsy.jpg"
-      },
-      {
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/dbi5yxH.jpg",
-"name": "Awesome Sky.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/9npxVI1.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/eMiPJu3.jpg",
-"name": "Beach.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/Mr3NpyP.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/HrZbpdM.jpg",
-"name": "Chemistry Wallpaper.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/7XO7Fuz.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/t1Pic5c.jpg",
-"name": "City Line.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/k8HItpO.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/VSUXikV.jpg",
-"name": "Cityscape.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/uvR9LsH.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/a2nnp7X.png",
-"name": "Gradient Light.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/SHOBAl9.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/6Wtxans.jpg",
-"name": "Grassland.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/ZxC1FAq.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/d7oPMsO.jpg",
-"name": "Greenland.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/QWsIbvF.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/WhoyIrp.jpg",
-"name": "Lakeside.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/BYrNWVs.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/JGhFYJb.jpg",
-"name": "Naruto.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/Z5v1CQZ.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/zvjmTNV.jpg",
-"name": "Northern Light.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/ZoOqnDa.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/sulNg11.png",
-"name": "Plane Red Sky.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/Iz8wsJK.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/7z38EOw.png",
-"name": "Red Black.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/LnpPNSP.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/LnjbDa4.jpg",
-"name": "Red Lake.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/nr5mhko.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/SwQyJYb.jpg",
-"name": "Sky.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/RH39GXC.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/lxXbPbN.jpg",
-"name": "Star Wars.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/cUQzUap.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/JWLzuZE.jpg",
-"name": "Starry Woods.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/2ythEDW.png"
-},
-{
-"author": "Abinash Neupane",
-"url": "http://i.imgur.com/DEEcVzF.jpg",
-"name": "Sunset.png",
-"category": "Nougat", "thumbUrl": "http://i.imgur.com/otiHGa8.png"
-}
-   ]
+    
+	"Wallpapers":
+        [
+			{
+				"author": "Taken from gadgetraid",
+				"url": "http://www.gadgetraid.com/wp-content/uploads/2016/07/android-n-nougat-wallpaper-1.png",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5TkZ0amk4TGZWYkU",
+				"name": "Nougat Wallpaper 1",
+                "category": "nougat,anothercategory"
+			},
+			{
+				"author": "Taken from gadgetraid",
+				"url": "http://www.gadgetraid.com/wp-content/uploads/2016/07/android-n-nougat-wallpaper-2.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5WTh5X054ZHJocmM",
+				"name": "Nougat Wallpaper 2",
+                "category": "nougat"
+			},
+			{
+				"author": "Taken from gadgetraid",
+				"url": "http://www.gadgetraid.com/wp-content/uploads/2016/07/android-n-nougat-wallpaper-3.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5d0xqb3ktUzRQZDg",
+				"name": "Nougat Wallpaper 3",
+                "category": "nougat"
+			},
+			{
+				"author": "Taken from gadgetraid",
+				"url": "http://www.gadgetraid.com/wp-content/uploads/2016/07/android-n-nougat-wallpaper-4.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5cGd5cElXQjA4Sk0",
+				"name": "Nougat Wallpaper 4",
+                "category": "nougat"
+			},
+			{
+				"author": "Taken from gadgetraid",
+				"url": "http://www.gadgetraid.com/wp-content/uploads/2016/07/android-n-nougat-wallpaper-1.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5SWFHM3A5RE1DMms",
+				"name": "Nougat Wallpaper 5",
+                "category": "nougat"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_01.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5NzgxMGI4RWV2MkU",
+				"name": "M Wallpaper 1",
+                "category": "marshmallow,anothercategory"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_02.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5LXpWOTVJU3A2Rm8",
+				"name": "M Wallpaper 2",
+                "category": "marshmallow,anothercategory"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_03.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5WDNHR3ZndEs3cnM",
+				"name": "M Wallpaper 3",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_04.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5WHVlbjA2UEZDUlk",
+				"name": "M Wallpaper 4",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_05.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5bU84NlNRTzNfMms",
+				"name": "M Wallpaper 5",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_06.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5VlVtcURlOEprY0E",
+				"name": "M Wallpaper 6",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_07.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5Mi1FRUMydnpKTUk",
+				"name": "M Wallpaper 7",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_08.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5Z01ERWZuZVJ1bjQ",
+				"name": "M Wallpaper 8",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_09.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5bVBSOHdKNTA1YUU",
+				"name": "M Wallpaper 9",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from slashgear",
+				"url": "https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_10.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5UnF2NU5xUENOMGM",
+				"name": "M Wallpaper 10",
+                "category": "marshmallow"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-01.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5M0NoYUlTU3lFY1U",
+				"name": "L Wallpaper 1",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-02.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5eDllWURVSFNnT1k",
+				"name": "L Wallpaper 2",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-03.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5eENIRjR1cWNnYUk",
+				"name": "L Wallpaper 3",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-04.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5ZXNzN05ZcGd5T3c",
+				"name": "L Wallpaper 4",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-05.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5ZnZ6T214dzN3dVU",
+				"name": "L Wallpaper 5",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-06.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5eE5wNWFfdjRIZzQ",
+				"name": "L Wallpaper 6",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-07.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5UUVMV1QyVTVMZG8",
+				"name": "L Wallpaper 7",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-08.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5QmVZY3ZaOTVRYnM",
+				"name": "L Wallpaper 8",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-09.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5eDlYQWtDVk1XcEk",
+				"name": "L Wallpaper 9",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-10.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5cDlMVXA5eTY2V1U",
+				"name": "L Wallpaper 10",
+                "category": "lollipop"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2014/10/nexus2cee_lollipop-wallpaper-11.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5TTRHT0wyOGxGQXM",
+				"name": "L Wallpaper 11",
+                "category": "lollipop"
+			},
+            {
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2013/11/nexusae0_wallpaper_50.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5Wk16eXdqQlR5eE0",
+				"name": "Kitkat Wallpaper 1",
+                "category": "kitkat,anothercategory"
+			},
+			{
+				"author": "Taken from androidpolice",
+				"url": "http://www.androidpolice.com/wp-content/uploads/2013/11/nexusae0_wallpaper_51.jpg",
+				"thumbUrl": "https://drive.google.com/uc?id=0B0f4ypHfNKm5Mmh0TGVDS2NNc2M",
+				"name": "Kitkat Wallpaper 2",
+                "category": "kitkat"
+			}
+		]
 }
